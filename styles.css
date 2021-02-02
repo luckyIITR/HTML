@@ -1,0 +1,78 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color:green;
+    text-align: center;
+}
+
+ul {
+    color: blue;
+    font-size: 30px;
+}
+
+ol{
+    color: brown;
+    font-size: 35px;
+}
+
+table,th,td{
+    border: 3px solid black;
+    font-size: 35px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 100px;
+}
+
+td{
+    color: blue;
+    border: 3px solid black;
+    font-size: 35px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 100px;
+}
+
+#pen {
+    color: green;
+}
+
+.muted{
+    color:hotpink;
+}
+
+input[type=text],  input[type=password]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color:palegoldenrod;
+    cursor: pointer;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  input[type=submit]:hover, input[type=text]:hover,input[type=password]:hover,button:hover{
+      background-color:blue;
+  }
+
+
+
+  button   {
+      background-color: red;
+      width: 200px;
+      height: 50px;
+      font-size: 24px;
+  }
